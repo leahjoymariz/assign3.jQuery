@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(245, 235, 235, 0.89);
+    font-family:'Times New Roman', Times, serif;
+
+
+
+
+}
+li, a, button{
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-size: 16px;
+    color:rgb(3, 95, 175);
+    text-decoration: none;
+    ;
+}
+.navbar{
+    list-style: none;
+    text-align: center;
+   
+
+}
+.navbar li{
+    display: inline-block;
+    padding: 0px 20px;
+    font-size: 40;
+    
+    
+    
+}
+.navbar li a{
+    transition: all 0.3s ease 0s;
+    font-size: 25px;
+    margin-top: 50px;
+    
+}
+.navbar li a:hover {
+    color:rgb(18, 168, 209);
+
+}
+
+button{
+    padding: 9px 25px;
+    background-color:rgb(152, 218, 213);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    margin-left: 190px;
+    
+}
+button:hover {
+    background-color :rgb(35, 166, 170);
+}
+.wrapper{
+    max-width: 500px;
+    width: 100%;
+    background:rgb(103, 159, 193);  
+    margin: 20px auto;
+    padding: 30px;
+    box-shadow: 1px 1px 2px rgb(70, 199, 203);
+}
+.wrapper .form{
+    width: 100%;
+
+ }
+ 
+ .wrapper .form .input-field{
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+ }
+
+.wrapper .form .input-field label{
+    width: 200px;
+    color:rgb(20, 21, 21);
+    margin-right: 10px;
+    font-size: 17px;
+
+
+}
+button{
+    text-align: center;
+}
+
+
+h1,h2{
+    font-size: 24px;
+    font-weight:700;
+    margin-bottom: 25px;
+    color:rgb(63, 128, 130);
+    text-align:center;
+    margin-top: 20px;
+
+}

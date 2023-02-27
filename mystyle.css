@@ -1,0 +1,80 @@
+/*alert*/
+.alert-error{
+    background-color:rgb(176, 100, 100);
+    border: 1px solid rgb(178, 26, 26);
+}
+header {
+    font-weight: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color:rgb(63, 128, 130);
+   
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(245, 235, 235, 0.89);
+}
+li, a, button{
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-size: 16px;
+    color:rgb(3, 95, 175);
+    text-decoration: none;
+}
+.navbar{
+    list-style: none;
+    text-align: center;
+
+}
+.navbar li{
+    display: inline-block;
+    padding: 0px 20px;
+    font-size: 40px;
+  
+    
+}
+.navbar li a{
+    transition: all 0.3s ease 0s;
+    font-size: 25px;
+  
+}
+.navbar li a:hover {
+    color:rgb(18, 168, 209);
+
+}
+
+button{
+    padding: 9px 25px;
+    background-color:rgb(174, 204, 205);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+button:hover {
+    background-color :rgb(35, 166, 170);
+}
+.form{
+    text-align: center;
+}
+input[type=text]{
+    width: 100%;
+    border: 2px solid #aaa;
+    border-radius: 10px;
+    margin: 8px 0;
+    outline: none;
+    padding: 8px;
+    box-sizing: border-box;
+    transition: 3s;
+}
+input[type-text]:focus{
+    border-color:rgb(54, 157, 161);
+    box-shadow: 0 8px 0 rgb(50, 147, 174);
+}
+h1{
+    text-align: center;
+}
+

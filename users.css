@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(245, 235, 235, 0.89);
+    font-family:'Times New Roman', Times, serif;
+
+
+
+
+}
+li, a, button{
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-size: 16px;
+    color:rgb(3, 95, 175);
+    text-decoration: none;
+    ;
+}
+.navbar{
+    list-style: none;
+    text-align: center;
+   
+
+}
+.navbar li{
+    display: inline-block;
+    padding: 0px 20px;
+    font-size: 40;
+    
+    
+    
+}
+.navbar li a{
+    transition: all 0.3s ease 0s;
+    font-size: 20px;
+    margin-top: 50px;
+    
+}
+.navbar li a:hover{
+    color:rgb(115, 6, 239);
+}
+h2{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 35px;
+    color:rgb(2, 90, 105);  
+}
+
+table{
+    width: 400px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border-collapse: collapse;
+    border-spacing: 0;
+    border-radius: 12px 12px 0 0;
+    overflow: hidden;
+    box-shadow: 0 5px 12px rgb(127, 167, 202);
+
+       
+}
+
+th {
+    text-align: left;
+    background-color:rgb(168, 199, 202);
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th, td {
+   padding: 10px;
+}
+
+tr:nth-child(even) {
+    background-color:rgb(222, 108, 64);
+
+}
+tr:nth-child(odd) {
+    background-color:rgb(26, 177, 187);
+}

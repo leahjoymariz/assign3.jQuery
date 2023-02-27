@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/register.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>My Awesome Registration System</h1>
+
+    <nav> 
+        <ul class="navbar">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="register.html">Register</a></li>
+        
+      </ul>
+        
+    </nav>
+    </header>
+    <main>
+        <h2>Add new user</h2>
+   
+    <div class="wrapper">
+        <div class="form">
+            <div class="input-field">
+                <label>Email*:</label>
+                <input type="text" id="txtEmail">
+            </div>
+    
+        <div>
+            <div class="input-field">
+                <label>Password*:</label>
+             <input type="password" id="txtPassword">
+        </div>
+  
+
+        <div class="input-field">
+            <label>First Name*:</label>
+            <input type="text" id="txtFirstName">
+        </div>
+   
+
+        <div class="input-field">
+            <label>Last Name*:</label>
+             <input type="text" id="txtLastName">
+        </div>
+   
+
+    <div class="input-field">
+            <label>Age*:</label>
+            <input type="text" id="txtAge">
+        </div>
+   
+    <div class="input-field">
+            <label>Gender</label>
+            <input type="text" id="txtGender">
+        </div>
+   
+
+    <div class="input-field">
+            <label>Phone</label>
+             <input type="tel" id="txtPhone">
+      
+    </div>
+
+    <div class="input-field">
+        <label>Payment:</label>
+        <select id="selPayment">
+            <option value="" selected>-- Payment Method --</option>
+            <option value="cash">Cash</option>
+            <option value="credit">Credit</option>
+            <option value="paypal">Paypal</option>
+        </select>
+        </div>
+   
+
+    <div class="input-field">
+            <label>Color:</label>
+            <input type="color" id="selColor">
+        </div>
+    </div>  
+</div>
+
+
+
+    <button id="btnAdd">Add</button>
+    </div>
+</main>
+<footer>
+
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+<script src="scripts/storeManager.js"></script>
+<script src="scripts/register.js"></script>
+   
+</html>
